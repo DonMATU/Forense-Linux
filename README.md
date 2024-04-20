@@ -1,4 +1,4 @@
-# :shipit: Metodologías forenses en Linux 🐧
+# Metodologías forenses en Linux 🐧
 
 Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir directorios y ficheros en servidores web.
 
