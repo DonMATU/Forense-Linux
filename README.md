@@ -4,8 +4,7 @@ Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir dire
 
 ## Adquisisción de evidencias
 <br>
-<br>
-<br>
+
 
 ### Volcado de memoria 🚀
 Hay distinas formas y herramientas para realizar el volcado de memoria en un sistema Linux. Las más populares y comunes dentro del mundo del forense digital serían las siguientes: 
@@ -32,7 +31,6 @@ Hay distinas formas y herramientas para realizar el volcado de memoria en un sis
    sudo ./avml ./evidencias/memory_avml.dmp
    ```
 
-Recuerda hascer las comprobaciones de integridad pertinentes :)
 <br>
 <br>
 <br>
