@@ -33,7 +33,8 @@ Recuerda hascer las comprobaciones de integridad pertinentes :)
 
 
 #### 🔷 LIME 
-Esta herramienta se debe compilar, siendo necesaria la instalación de varios paquetes para poder realizar este procedimiento. Para un correcto volcado de memoria, se debería montar un host gemelo (misma distribución con la misma versión de kernel) y compilar en él el driver .ko, ya que si descargamos esta herramienta y compilamos en la máquina objetivo, vamos a modificar la memoria y por lo tanto las evidencias digitales
+Esta herramienta se debe compilar, siendo necesaria la instalación de varios paquetes para poder realizar este procedimiento. 
+Para un correcto volcado de memoria, se debería montar un host gemelo (misma distribución con la misma versión de kernel) y compilar en él el driver .ko, ya que si descargamos esta herramienta y compilamos en la máquina objetivo, vamos a modificar la memoria y por lo tanto las evidencias digitales
 
 1. Descarga los paquetes `git` y `gcc` en el sistema
    ```bash
