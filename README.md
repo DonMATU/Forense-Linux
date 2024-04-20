@@ -33,7 +33,7 @@ Hay distinas formas y herramientas para realizar el volcado de memoria en un sis
 
 <br>
 <br>
-<br>
+
 
 #### 🔷 LIME 
 Esta herramienta se debe compilar, siendo necesaria la instalación de varios paquetes para poder realizar este procedimiento. <br>
