@@ -1,8 +1,8 @@
-# Metodología forense básica en Linux 🐧
+# 🔍 Metodología forense básica en Linux 🐧
 
 
 
-## Adquisisción de evidencias
+## Adquisisción de evidencias 💾
 <br>
 
 
@@ -134,3 +134,11 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
    ```bash
    md5sum Ubuntu_4.15.0-213-generic_profile.zip
    ```
+
+<br>
+<br>
+<br>
+
+## Compartición de la información 📥
+(En una máquina clonada)
+<br>
