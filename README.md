@@ -9,12 +9,23 @@ Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir dire
 #### AVML
 
 
-1. Descarga el script `matu-script.sh`
+1. Descarga el script `AVML`
    ```bash
-   wget https://github.com/DonMATU/bash/blob/main/fuzzer/matu-fuzzer.sh
+   wget https://github.com/microsoft/avml/releases/download/v0.13.0/avml
    ```
 
-2. (OPCIONAL) Descarga los diccionarios presentes en el directorio `wordlists`.
+2. Dale permisos de ejecución al scirpt:
    ```bash
-   git clone https://github.com/DonMATU/bash/fuzzer.git
-   ```# Forense-Linux
+   chmod +x avml
+   ```
+
+3. (OPCIONAL) Crea el directorio donde almacenar el directorio donde almacenar el volcado de memoria
+   ```bash
+   mkdir evidencias
+   ```
+   
+4. Ahora lanza el volcado de memoria. (No te asustes si se cuelga un poco el sistema)
+   ```bash
+   sudo ./avml ./evidencias/memory_avml.dmp
+   ```
+
