@@ -154,12 +154,12 @@ Ahora debes compartirte a tí mismo las evidencias recopiladas.
    mkdir profiles
    ```
 
-2. Descarga la herramienta `volatility`:
+2. Mueve el profile generado anteriormente al directorio `profile` creado:
    ```bash
    cp Descargas/Ubuntu_5.4.0-84-generic_profile.zip profiles/
    ```
 
-2. Descarga la herramienta `volatility`:
+3. Revisa que el profile haya sido agregado correctamente:
    ```bash
    vol.py --plugins=profiles --info | grep "Linux"
    ```
