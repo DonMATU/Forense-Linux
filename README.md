@@ -75,8 +75,8 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
 <br>
 
 
-## Triaje
-### 🔷 CyLR 
+### Triaje
+#### 🔷 CyLR 
 1. Descarga la herramienta CylR
    ```bash
    sudo apt install -y git make gcc && unzip CyLR_linux-x64.zip
@@ -97,3 +97,5 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
    sudo ./CyLR -od ./evidencias
    ```
 
+
+## Generación del profile
