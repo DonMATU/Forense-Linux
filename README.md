@@ -171,7 +171,7 @@ Ahora debes compartirte a tí mismo las evidencias recopiladas.
 
 5. Por probar, intenta ejecutar el comando pstree:
    ```bash
-   vol.py --info | grep linux_
+   vol.py --plugins=profiles --profile=<Linux_profile> -f Descargas/memory_avml.dmp linux_pstree
    ```
    
 
