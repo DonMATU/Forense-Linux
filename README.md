@@ -76,7 +76,7 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
 <br>
 
 
-### Triaje
+### Triaje 📂
 #### 🔷 CyLR 
 1. Descarga la herramienta CylR
    ```bash
@@ -101,7 +101,7 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
 <br>
 <br>
 
-## Generación del profile
+## Generación del profile 💻
 
 
 
