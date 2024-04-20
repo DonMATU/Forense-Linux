@@ -2,7 +2,12 @@
 
 Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir directorios y ficheros en servidores web.
 
-## Descarga
+## Adquisisción de evidencias
+
+### Volcado de memoria
+
+#### AVML
+
 
 1. Descarga el script `matu-script.sh`
    ```bash
