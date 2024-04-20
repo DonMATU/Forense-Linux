@@ -130,3 +130,7 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
    sudo zip $(lsb_release -i -s)_$(uname -r)_profile.zip ./volatility/tools/linux/module.dwarf /boot/System.map-$(uname -r)
    ```
 
+6. Revisa revisar la integridad de la información:
+   ```bash
+   md5sum Ubuntu_4.15.0-213-generic_profile.zip
+   ```
