@@ -96,6 +96,11 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
    ```bash
    sudo ./CyLR -od ./evidencias
    ```
-
+<br>
+<br>
+<br>
 
 ## Generación del profile
+
+
+
