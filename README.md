@@ -161,5 +161,17 @@ Ahora debes compartirte a tí mismo las evidencias recopiladas.
 
 3. Revisa que el profile haya sido agregado correctamente:
    ```bash
-   vol.py --plugins=profiles --info | grep "Linux"
+   vol.py --plugins=/path/to/profiles --info | grep "Linux"
    ```
+
+4. Revisa los comandos que puedes ejecutar:
+   ```bash
+   vol.py --info | grep linux_
+   ```
+
+5. Por probar, intenta ejecutar el comando pstree:
+   ```bash
+   vol.py --info | grep linux_
+   ```
+   
+
