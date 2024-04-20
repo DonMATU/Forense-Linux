@@ -1,10 +1,10 @@
-# Metodologías forenses en Linux 🚀
+# :shipit: Metodologías forenses en Linux 🐧
 
 Matu-Fuzzer es un script de Bash para fuzzing web, diseñado para descubrir directorios y ficheros en servidores web.
 
 ## Adquisisción de evidencias
 
-### Volcado de memoria
+### Volcado de memoria 🚀
 Hay distinas formas y herramientas para realizar el volcado de memoria en un sistema Linux. Las más populares y comunes dentro del mundo del forense digital serían las siguientes: 
 
 #### AVML
