@@ -146,5 +146,20 @@ Ahora debes compartirte a tí mismo las evidencias recopiladas.
 <br>
 <br>
 
+
 ## Analizar el volcado de memoria 🚀
 Ahora debes compartirte a tí mismo las evidencias recopiladas.
+1. Crea el directorio `profile`:
+   ```bash
+   mkdir profiles
+   ```
+
+2. Descarga la herramienta `volatility`:
+   ```bash
+   cp Descargas/Ubuntu_5.4.0-84-generic_profile.zip profiles/
+   ```
+
+2. Descarga la herramienta `volatility`:
+   ```bash
+   vol.py --plugins=profiles --info | grep "Linux"
+   ```
