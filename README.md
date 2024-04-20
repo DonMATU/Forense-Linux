@@ -9,7 +9,6 @@ Hay distinas formas y herramientas para realizar el volcado de memoria en un sis
 
 #### 🔷 AVML 
 
-
 1. Descarga el script `AVML`
    ```bash
    wget https://github.com/microsoft/avml/releases/download/v0.13.0/avml
@@ -30,4 +29,25 @@ Hay distinas formas y herramientas para realizar el volcado de memoria en un sis
    sudo ./avml ./evidencias/memory_avml.dmp
    ```
 
-#### 🔷 AVML 
+5. Recuerda hascer las comprobaciones de integridad pertinentes :)
+   ```bash
+   md5sum ./evidencias/memory_avml.dmp
+   ```
+   ```bash
+   sha256sum ./evidencias/memory_avml.dmp
+   ```
+   ```bash
+   sha512sum ./evidencias/memory_avml.dmp
+   ```
+
+
+#### 🔷 LIME 
+
+1. Descarga el script `LIME`
+   ```bash
+   wget https://github.com/microsoft/avml/releases/download/v0.13.0/avml
+   ```
+
+
+
+
