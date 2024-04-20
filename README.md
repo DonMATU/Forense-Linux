@@ -35,16 +35,65 @@ Recuerda hascer las comprobaciones de integridad pertinentes :)
 <br>
 
 #### 🔷 LIME 
-Esta herramienta se debe compilar, siendo necesaria la instalación de varios paquetes para poder realizar este procedimiento. 
+Esta herramienta se debe compilar, siendo necesaria la instalación de varios paquetes para poder realizar este procedimiento. <br>
 <br>
 Para un correcto volcado de memoria, se debería montar un host gemelo (misma distribución con la misma versión de kernel) y compilar en él el driver .ko, ya que si descargamos esta herramienta y compilamos en la máquina objetivo, vamos a modificar la memoria y por lo tanto las evidencias digitales
 <br>
 
-1. Descarga los paquetes `git` y `gcc` en el sistema
+1. Descarga los paquetes `git` y `gcc` en el sistema.
    ```bash
    sudo apt install -y git make gcc
    ```
+   
+2. Descarga la herramienta `LIME` desde Github.
+   ```bash
+   git clone https://github.com/504ensicsLabs/LiME.git
+   ```
+      
+3. Se compila el software descargado.
+   ```bash
+   cd LiME/src && make
+   ```
+
+4. Carga un módulo del kernel (lime-*.ko) especificando la ubicación del archivo de imagen de memoria, el formato (lime), y un tiempo de espera de 0 segundos.
+   ```bash
+   sudo insmod ./lime-*.ko "path=/tmp/limeImage.mem format=lime timeout=0"
+   ```  
+
+5. Crea el directorio donde almacenarás el volcado de memoria
+   ```bash
+   mkdir ~/Descargas/evidencias/
+   ```
+   
+6. Mueve el volcado de memoria al directorio de salida
+   ```bash
+   sudo mv /tmp/limeImage.mem ~/Descargas/evidencias/
+   ```  
+
+<br>
+<br>
+<br>
 
 
+## Triaje
+### 🔷 CyLR 
+1. Descarga la herramienta CylR
+   ```bash
+   sudo apt install -y git make gcc && unzip CyLR_linux-x64.zip
+   ```
+   
+2. Dale permisos de ejecución al scirpt:
+   ```bash
+   sudo chmod +x CyLR
+   ```
 
+3. (OPCIONAL) Crea el directorio donde almacenar el directorio donde almacenar el volcado de memoria
+   ```bash
+   mkdir evidencias
+   ```
+
+4. Se genera el volcado de :
+   ```bash
+   sudo ./CyLR -od ./evidencias
+   ```
 
