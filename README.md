@@ -29,16 +29,7 @@ Hay distinas formas y herramientas para realizar el volcado de memoria en un sis
    sudo ./avml ./evidencias/memory_avml.dmp
    ```
 
-5. Recuerda hascer las comprobaciones de integridad pertinentes :)
-   ```bash
-   md5sum ./evidencias/memory_avml.dmp
-   ```
-   ```bash
-   sha256sum ./evidencias/memory_avml.dmp
-   ```
-   ```bash
-   sha512sum ./evidencias/memory_avml.dmp
-   ```
+Recuerda hascer las comprobaciones de integridad pertinentes :)
 
 
 #### 🔷 LIME 
