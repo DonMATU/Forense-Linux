@@ -102,6 +102,21 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
 <br>
 
 ## Generación del profile 💻
+(En una máquina clonada)
+<br>
+
+1. Descarga los paquetes necesarios para nuestro sistema (cloado) `bison` `flex` `dwarfdump` `linux-headers-$(uname -r)`
+   ```bash
+   sudo apt-get install -y bison flex dwarfdump linux-headers-$(uname -r)
+   ```
+   
+1. Descarga la herramienta CylR
+   ```bash
+   sudo apt install -y git make gcc && unzip CyLR_linux-x64.zip
+   ```
 
 
-
+git clone https://github.com/volatilityfoundation/volatility.git
+cd volatility/tools/linux/ && make
+cd ../../../
+sudo zip $(lsb_release -i -s)_$(uname -r)_profile.zip ./volatility/tools/linux/module.dwarf /boot/System.map-$(uname -r)
