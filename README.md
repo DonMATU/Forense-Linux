@@ -6,7 +6,7 @@
 <br>
 
 
-### Volcado de memoria 🚀
+### Volcado de memoria ⚡
 Hay distinas formas y herramientas para realizar el volcado de memoria en un sistema Linux. Las más populares y comunes dentro del mundo del forense digital serían las siguientes: 
 
 #### 🔷 AVML 
@@ -140,5 +140,11 @@ Para un correcto volcado de memoria, se debería montar un host gemelo (misma di
 <br>
 
 ## Compartición de la información 📥
-(En una máquina clonada)
+Ahora debes compartirte a tí mismo las evidencias recopiladas.
+
 <br>
+<br>
+<br>
+
+## Analizar el volcado de memoria 🚀
+Ahora debes compartirte a tí mismo las evidencias recopiladas.
