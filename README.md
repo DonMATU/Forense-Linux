@@ -1,4 +1,4 @@
-# Metodología forenses básica en Linux 🐧
+# Metodología forense básica en Linux 🐧
 
 
 
