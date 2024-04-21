@@ -1,6 +1,8 @@
 # Adquisición de evidencias 💾
 <br>
 
+## En caliente (Equivo encendido)⚡
+
 
 ### Volcado de memoria ⚡
 Hay distinas formas y herramientas para realizar el volcado de memoria en un sistema Linux. Las más populares y comunes dentro del mundo del forense digital serían las siguientes: 
